@@ -1,3 +1,66 @@
-body {
-    background: blue;
-  }
+h1 {
+  color:rgb(245, 181, 84);
+  text-align:center;
+  font-family:garamond,serif;
+  font-size:60px;
+  opacity:0.3;
+  padding: 1px;
+  margin-bottom: .5em;
+  
+}
+
+h2{
+  color:rgb(255, 255, 255);
+  text-align:center;
+  margin-bottom: .5em;
+  padding: 1px;
+  font-size: 30px;
+}
+
+h3 {
+  color:rgb(255, 255, 255);
+  opacity:10;
+  text-align:left;
+  padding: 10px;
+  
+}
+html {
+    background-image: url("mountains.jpeg"); 230, 163, 149
+}
+
+div.background {
+  background: url(klematis.jpg) repeat;
+  border: 2px solid black;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  height:auto;
+}
+
+div.transbox {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: rgb(245, 181, 84);
+  border: 1px solid black;
+  opacity: 0.6;
+  width: 800px;
+  
+}
+div.transbox p {
+  margin: 10%;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 2em;
+  margin-top: 1em;
+  line-height: 1.75em;
+  text-align:center;
+  font-size: 15px;
+  font-family:"ariel-narrow",sans-serif;
+  font-weight: 550;
+  
+}
+div.transbox:hover {
+  opacity:1
+}
